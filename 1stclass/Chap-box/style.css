@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+    /* width: 150px; */
+    width: 50vw;
+    height: 50vh;
+}
+p{
+    /* width: 150px; */
+    /* width: 100vw; */
+    width: 50%;
+    background-color: red;
+}

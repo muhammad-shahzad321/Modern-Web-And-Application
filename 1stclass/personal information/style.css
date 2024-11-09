@@ -1,0 +1,91 @@
+/* General body styling */
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Styling for the form container on index.html */
+.form-container {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #ff6f61;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+label {
+    color: #555;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4a3d;
+}
+
+/* Styling for the thank you container on thankyou.html */
+.thankyou-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    animation: slideIn 1s ease-out;
+}
+
+/* Thank you message styling */
+.thankyou-message {
+    font-size: 2.5em;
+    color: #ff6f61;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+/* Sliding animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

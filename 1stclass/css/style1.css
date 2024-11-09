@@ -1,0 +1,25 @@
+p{
+    font-style:italic;
+    /* text-transform: lowercase; */
+    /* line-height: 48px; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 0; */
+}
+p.shadow{
+    text-shadow: 8px,8px #000;
+}
+a:visited{
+    color: hotpink;
+}
+a:link{
+    color: chartreuse;
+}
+a:hover{
+    color: aqua;
+}
+input :focus{
+    outline: 3px solid red;
+}
+input :active{
+    outline: 2px solid green;
+}
